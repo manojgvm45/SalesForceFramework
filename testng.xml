@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="com.salesforce.testcases.S10_112_CreateWorkTypeGroup"/>
+      <class name="com.salesforce.testcases.S10_016_EditDashBoard_TC"/>
+      <class name="com.salesforce.testcases.S10_055_CreateParentTerritory"/>
+      <class name="com.salesforce.testcases.S10_120_CreateFollowupEvent_TS"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
